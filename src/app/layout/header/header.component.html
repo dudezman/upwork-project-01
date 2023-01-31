@@ -1,0 +1,37 @@
+<mat-toolbar color="primary" style="background: #2188D9;">
+    <mat-toolbar-row style="padding-left: 32px; padding-right: 32px;display: flex; justify-content: space-between;">
+      <span>ZenduForms</span>
+      <p style="margin:0; height: 100%;">
+        <mat-button-toggle-group name="menu"  appearance="legacy">
+          <mat-button-toggle value="Forms">
+        <mat-icon>list</mat-icon>
+            Forms
+        </mat-button-toggle>
+          <mat-button-toggle value="Customers">
+        <mat-icon>group</mat-icon>
+            Customers
+        </mat-button-toggle>
+          <mat-button-toggle value="Submissions" routerLink="/submissions">
+        <mat-icon>graphic_eq</mat-icon>
+            Submissions
+        </mat-button-toggle>
+          <mat-button-toggle value="History">
+        <mat-icon>history</mat-icon>
+            History
+        </mat-button-toggle>
+          <mat-button-toggle value="Reports">
+        <mat-icon>insert_chart_outlined</mat-icon>
+            Reports
+        </mat-button-toggle>
+          <mat-button-toggle value="Workflow">
+        <mat-icon>insert_chart_outlined</mat-icon>
+            Workflow
+        </mat-button-toggle>
+        </mat-button-toggle-group>
+      </p>
+        <p>
+            <mat-icon style="padding-right: 22px;">notifications</mat-icon>
+            <mat-icon>logout</mat-icon>
+        </p>
+    </mat-toolbar-row>
+  </mat-toolbar>

@@ -1,0 +1,105 @@
+.heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    margin: 0 0 26px 0;
+}
+.filters{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.search-field{
+    width: 334px;
+    height: 48px;
+}
+.select-field{
+    height: 48px;
+}
+.date-field{
+    height: 48px !important;
+    font-size: 16px;
+}
+::ng-deep.mat-form-field-appearance-outline .mat-form-field-wrapper{
+    margin:0;
+}
+::ng-deep.mat-form-field-infix{
+    display: flex !important;
+}
+
+.date-field::ng-deep .mat-form-field-flex > .mat-form-field-infix { padding: 0.34em 0px 0.27em 0px !important;}
+
+.mat-button-toggle-checked{
+    background: #2188D9;
+    color: white;
+}
+.export{
+    color: #2188D9;
+}
+.with-map{
+    display: flex;
+    .boxes{
+        width: 459px;
+        .box{
+            width: 428px;
+            height: 112px;
+            background: #FFFFFF;
+            border: 1px solid #B8B9BC;
+            border-radius: 4px;
+            padding: 16px;
+            margin-bottom: 8px;
+            .header{
+                display: flex;
+                justify-content: space-between;
+                .title{
+                    margin: 0;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 140%;
+                }
+            }
+            .from-row{
+                margin-top: 8px;
+                display: flex;
+                justify-content: flex-start;
+            }
+        }
+    }
+}
+.from-label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #B8B9BC;
+}
+.value-label{
+    margin-left: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #060C1B;
+}
+.due-date{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FF3D00;
+    margin-left: 8px;
+}
+
+.content{
+    
+}
