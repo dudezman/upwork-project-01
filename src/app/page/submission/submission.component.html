@@ -41,7 +41,10 @@
       <div class="box" *ngFor="let item of data" >
         <div class="header">
           <h5 class="title">{{item.task}}</h5>
-          <span>{{item.status}}</span>
+          <span class="status" [ngClass]="{' status-danger':item.status==='Uncomplete',' status-success':item.status==='Low Risk',' status-review':item.status==='Needs Review'}">
+            <mat-icon class="indicator">fiber_manual_record</mat-icon>
+            {{item.status}}
+          </span>
         </div>
         <div class="from-row">
             <span class="from-label">From:</span>
@@ -57,8 +60,8 @@
     </div>
       </div>
     </div>
-    <div>
-      map
+    <div class="map">
+      <div class="map-container" #map></div>
     </div>
   </div>
   

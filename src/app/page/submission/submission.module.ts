@@ -3,15 +3,14 @@ import { CommonModule } from '@angular/common';
 
 import { SubmissionRoutingModule } from './submission-routing.module';
 import { SubmissionComponent } from './submission.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import {MatInputModule} from '@angular/material/input';
+import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule} from '@angular/material/input';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
-import {MatSelectModule} from '@angular/material/select';
+import { MatSelectModule} from '@angular/material/select';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
-import {MatButtonModule} from '@angular/material/button';
-import {GMapModule} from 'primeng/gmap';
+import { MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     SubmissionComponent
@@ -27,8 +26,7 @@ import {GMapModule} from 'primeng/gmap';
     MatSelectModule,
     MatDatepickerModule,
     MatButtonToggleModule,
-    MatButtonModule,
-    GMapModule
+    MatButtonModule
   ]
 })
 export class SubmissionModule { }
